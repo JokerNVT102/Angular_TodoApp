@@ -1,0 +1,24 @@
+.wrapper {
+  &__title {
+    color: #e1bebe;
+    font-size: 130px;
+    padding: 30px 0;
+    font-weight: 100;
+  }
+
+  & app-header {
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.1);
+  }
+  &__instruction {
+    color: #bfbfbf;
+    padding: 30px 0;
+    margin-top: auto;
+  }
+  &__todo-wrapper {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+}
